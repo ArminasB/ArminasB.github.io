@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  padding: 0 32px;
+}
+
+.header__navigation {
+  height: 110px;
+  padding: 32px 0 42px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__list {
+  display: none;
+}
+
+.page-logo {
+  width: 170px;
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+}
+.page-logo__icon {
+  height: 100%;
+}
+.page-logo__text {
+  font-family: "Varela Round", sans-serif;
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+  font-weight: bold;
+}
+
+.burger-icon {
+  width: 24px;
+  height: 22px;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  padding-top: 38px;
+}
+.hero__content {
+  max-width: 80%;
+}
+.hero__image {
+  height: 278px;
+  position: absolute;
+  top: 0;
+  right: -110px;
+}
+
+.launching-tag {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: rgb(255, 57, 152);
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.additional-information {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+}
+
+.sign-button {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 22px 56px 22px 56px;
+  border: 4px solid;
+  border-radius: 30px;
+  border-image-slice: 3;
+  border-image-source: linear-gradient(to left, #c85700, #ffe359);
+}
+
+/*# sourceMappingURL=index.css.map */

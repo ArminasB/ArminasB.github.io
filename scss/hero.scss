@@ -1,0 +1,20 @@
+.hero {
+    display: flex;
+    position: relative;
+    padding-top: 38px;
+    
+    
+
+    &__content {
+        max-width: 80%;
+    }
+
+    &__image {
+        height: 278px;
+        position: absolute;
+        top: 0;
+        right: -110px;
+    }
+
+
+}

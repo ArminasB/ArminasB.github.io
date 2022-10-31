@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    padding: 0 32px;
+}
