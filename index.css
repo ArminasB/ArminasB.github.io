@@ -26,20 +26,10 @@ body {
 }
 
 .page-logo {
-  width: 170px;
-  display: flex;
-  gap: 12px;
-  text-decoration: none;
+  height: 36px;
 }
 .page-logo__icon {
   height: 100%;
-}
-.page-logo__text {
-  font-family: "Varela Round", sans-serif;
-  color: black;
-  font-size: 28px;
-  font-weight: 400;
-  font-weight: bold;
 }
 
 .burger-icon {
@@ -50,16 +40,20 @@ body {
 .hero {
   display: flex;
   position: relative;
-  padding-top: 38px;
+  padding: 38px 0 80px 0;
 }
 .hero__content {
-  max-width: 80%;
+  max-width: 76%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .hero__image {
-  height: 278px;
+  height: 360px;
   position: absolute;
-  top: 0;
-  right: -110px;
+  top: -36px;
+  right: -206px;
+  z-index: -1;
 }
 
 .launching-tag {
@@ -72,26 +66,57 @@ body {
 }
 
 .heading {
-  font-size: 48px;
+  font-size: 44px;
   line-height: 1.2;
+  font-weight: 900;
+  margin: 0;
 }
 
 .additional-information {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 400;
+  margin: 0;
   color: rgb(85, 85, 85);
 }
 
+.upsell--information {
+  color: black;
+}
+
 .sign-button {
+  color: black;
+  text-align: center;
   text-decoration: none;
   font-size: 20px;
-  line-height: 1.5;
-  padding: 22px 56px 22px 56px;
-  border: 4px solid;
-  border-radius: 30px;
-  border-image-slice: 3;
-  border-image-source: linear-gradient(to left, #c85700, #ffe359);
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 188px;
+  padding: 22px 0 22px 0;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, red, orange) border-box;
+  border-radius: 50px;
+  border: 4px solid transparent;
+}
+
+.upsell {
+  height: 326px;
+  padding: 32px 0 32px 0;
+  background: rgb(212, 72, 145);
+  background: linear-gradient(45deg, rgb(212, 72, 145) 0%, rgb(198, 134, 38) 62%, rgb(136, 181, 80) 100%);
+}
+.upsell__layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.section-heading {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=index.css.map */

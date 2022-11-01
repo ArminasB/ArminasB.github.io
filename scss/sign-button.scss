@@ -1,10 +1,14 @@
 .sign-button {
+    color: black;
+    text-align: center;
     text-decoration: none;
     font-size: 20px;
-    line-height: 1.5;
-    padding: 22px 56px 22px 56px;
-    border: 4px solid;
-    border-radius: 30px;
-    border-image-slice: 3;
-    border-image-source: linear-gradient(to left, #c85700, #ffe359);
+    font-weight: 600;
+    line-height: 1.2;
+    max-width: 188px;
+    padding: 22px 0 22px 0;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, red, orange) border-box;
+    border-radius: 50px;
+    border: 4px solid transparent;
 }
