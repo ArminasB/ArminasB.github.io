@@ -18,3 +18,9 @@ body {
     height: 100%;
     padding: 0 32px;
 }
+
+@media screen and (min-width: 992px) {
+    .wrapper {
+        padding: 0 80px;
+    }
+}

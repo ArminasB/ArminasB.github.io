@@ -2,9 +2,30 @@
     text-decoration: none;
 }
 
+.link--dropdown {
+    color: rgb(69, 61, 153);
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, rgb(93, 24, 190), rgb(9, 72, 25)) border-box;
+    border-radius: 50px;
+    border: 2px solid transparent;
+
+}
+
+.link--sign-up {
+    color: rgb(96, 67, 67);
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, red, orange) border-box;
+}
+
+
 .footer--list-link {
     color: inherit;
     font-size: 20px;
     line-height: 1;
     font-weight: 400;
 }
+
