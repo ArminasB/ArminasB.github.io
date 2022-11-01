@@ -12,9 +12,8 @@
         gap: 32px;
     }
 
-
-
     &__image {
+        
         height: 360px;
         position: absolute;
         top: -36px;
@@ -22,5 +21,13 @@
         z-index: -1;
     }
 
+    .hero--bottom {
+        max-width: 65%;
+    }
 
+    &__bottom-image {
+        position: absolute;
+        bottom: 0;
+        right: -70px;
+    }
 }
