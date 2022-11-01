@@ -126,9 +126,13 @@ body {
 .press__layout {
   height: 100%;
   display: grid;
+  column-gap: 10px;
   align-items: center;
   justify-items: start;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+.press__icon {
+  width: 100%;
 }
 .press .hidden--icon {
   display: none;
