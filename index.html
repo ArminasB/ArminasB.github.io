@@ -23,11 +23,11 @@
                 <a href="#" class="page-logo">
                     <img src="assets\logo.svg" alt="logo" class="page-logo__icon">
                 </a>
-                <ul class="header__list">
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Launch</a></li>
-                    <li><a href="#">Sign up</a></li>
+                <ul class="u-list list--header">
+                    <li class="list-item"><a href="#" class="list-link">Features</a></li>
+                    <li class="list-item"><a href="#" class="list-link">About</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Launch</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Sign up</a></li>
                 </ul>
                 <img src="images\menu.png" alt="burger-icon" class="burger-icon">
             </nav>
@@ -61,20 +61,20 @@
         </article>
         <article class="press">
             <div class="wrapper">
-                <ul class="press__list">
-                    <li class="press__list-item"><a href="#" class="press__link">
+                <ul class="u-list list--press">
+                    <li class="list-item"><a href="#" class="list-link">
                             <picture>
                                 <source media="(min-width: 992px)" srcset="assets\companies\1.svg">
                                 <img src="assets\companies\1 png.png" alt="boomerang-logo" class="press__icon">
                             </picture>
                         </a></li>
-                    <li class="press__list-item"><a href="#" class="press__link"><img src="assets\companies\2.svg"
+                    <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\2.svg"
                                 alt="blimp-logo" class="press__icon"></a></li>
-                    <li class="press__list-item"><a href="#" class="press__link"><img src="assets\companies\3.svg"
+                    <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\3.svg"
                                 alt="qrco-logo" class="press__icon"></a></li>
-                    <li class="press__list-item hidden--icon"><a href="#" class="press__link"><img
+                    <li class="list-item hidden--icon"><a href="#" class="list-link"><img
                                 src="assets\companies\4.svg" alt="opendoor-logo" class="press__icon"></a></li>
-                    <li class="press__list-item"><a href="#" class="press__link"><img src="assets\companies\5.svg"
+                    <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\5.svg"
                                 alt="droplet-logo" class="press__icon"></a></li>
                 </ul>
             </div>
@@ -154,8 +154,8 @@
         </article>
         <article class="bottom-upsell">
             <div class="wrapper">
-                <section class="hero">
-                    <div class="hero__content hero--bottom">
+                <section class="hero hero--bottom">
+                    <div class="hero__content hero-content--bottom">
                         <div class="hero__content-top">
                             <span class="launching-tag">launching soon</span>
                             <h2 class="heading">An NFT like no other</h2>
@@ -172,8 +172,63 @@
             </div>
         </article>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="wrapper footer__layout">
+            <section class="footer__social">
+                <a href="#" class="page-logo">
+                    <img src="assets\logo.svg" alt="logo" class="page-logo__icon">
+                </a>
+                <p class="additional-information">
+                    Exclusive NFT Collection
+                </p>
+                <ul class="u-list list--social">
+                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\facebook.svg" alt="facebook"></a></li>
+                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\twitter.svg" alt="twitter"></a></li>
+                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\instagram.svg" alt="instagram"></a></li>
+                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\tiktok.svg" alt="tiktok"></a></li>
+                </ul>
+            </section>
+            <nav class="footer__navigation">
+                <section class="footer__list-section">
+                    <h4 class="list-heading">about</h4>
+                    <ul class="u-list footer--list">
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">About</a></li>
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Terms</a></li>
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Legal</a></li>
+                    </ul>
+                </section>
+                <section class="footer__list-section">
+                    <h4 class="list-heading">nft</h4>
+                    <ul class="u-list footer--list">
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">OpenSea</a></li>
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Maker</a></li>
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Learn</a></li>
+                    </ul>
+                </section>
+                <section class="footer__list-section">
+                    <h4 class="list-heading">contact</h4>
+                    <ul class="u-list footer--list">
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Press</a></li>
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Support</a></li>
+                    </ul>
+                </section>
+                <section class="footer__list-section">
+                    <h4 class="list-heading">social</h4>
+                    <ul class="u-list footer--list">
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Twitter</a></li>
+                        <li class="list-item"><a href="#" class="list-link footer--list-link">Instagram</a></li>
+                    </ul>
+                </section>
+            </nav>
+            <section class="footer__bottom">
+                <span class="footer__bottom-copyright">
+                    &copy; Copyright 2022 NFTlanding
+                </span>
+                <span class="footer__bottom-launch">
+                    Launching August 2022
+                </span>
+            </section>
+        </div>
     </footer>
 </body>
 

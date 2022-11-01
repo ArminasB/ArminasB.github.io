@@ -26,15 +26,57 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.header__list {
-  display: none;
-}
 
 .page-logo {
   height: 36px;
 }
 .page-logo__icon {
   height: 100%;
+}
+
+.u-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list--header {
+  display: none;
+}
+
+.list--press {
+  height: 100%;
+  display: grid;
+  column-gap: 10px;
+  align-items: center;
+  justify-items: start;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.list--social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer--list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hidden--icon {
+  display: none;
+}
+
+.list-link {
+  text-decoration: none;
+}
+
+.footer--list-link {
+  color: inherit;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
 }
 
 .burger-icon {
@@ -60,13 +102,18 @@ body {
   right: -206px;
   z-index: -1;
 }
-.hero .hero--bottom {
+.hero .hero-content--bottom {
   max-width: 65%;
 }
 .hero__bottom-image {
   position: absolute;
   bottom: 0;
   right: -70px;
+  z-index: -1;
+}
+
+.hero--bottom {
+  border-bottom: 2px solid rgb(238, 238, 238);
 }
 
 .launching-tag {
@@ -135,21 +182,8 @@ body {
   padding: 68px 0 58px 0;
   height: 238px;
 }
-.press__list {
-  height: 100%;
-  padding-left: 0;
-  list-style: none;
-  display: grid;
-  column-gap: 10px;
-  align-items: center;
-  justify-items: start;
-  grid-template-columns: repeat(2, 1fr);
-}
 .press__icon {
   width: 100%;
-}
-.press .hidden--icon {
-  display: none;
 }
 
 .showcase__nft-section {
@@ -232,8 +266,50 @@ body {
 }
 
 .bottom-upsell {
-  margin: 64px 0;
-  border-bottom: 2px solid rgb(238, 238, 238);
+  padding-top: 26px;
+}
+
+.footer {
+  padding: 66px 0 105px 0;
+}
+.footer__layout {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+}
+.footer__bottom-copyright, .footer__bottom-launch {
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
+}
+.footer__bottom-launch {
+  display: none;
+}
+
+.social-icon {
+  height: 18px;
+  width: 18px;
+  color: rgb(153, 153, 153);
+}
+
+.list-heading {
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  margin: 0 0 28px 0;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=index.css.map */
