@@ -33,9 +33,13 @@
             </nav>
             <section class="hero">
                 <div class="hero__content">
-                    <span class="launching-tag">launching soon</span>
-                    <h1 class="heading">An NFT like no other</h1>
-                    <p class="additional-information">Don't miss out the release of our NFT. Sign up bellow to receive updates when we go live.</p>
+                    <div class="hero__content-top">
+                        <span class="launching-tag">launching soon</span>
+                        <h1 class="heading">An NFT like no other</h1>
+                        <p class="additional-information">Don't miss out the release of our NFT. Sign up bellow to
+                            receive
+                            updates when we go live.</p>
+                    </div>
                     <a href="#" class="sign-button">Sign Up</a>
                 </div>
 
@@ -46,28 +50,104 @@
     </header>
     <main class="main">
         <article class="upsell">
-            <div class="wrapper upsell__layout">
-                <h3 class="section-heading">Free NFT for early birds</h3>
-                <p class="additional-information upsell--information">
-                    Sign up today and you'll get a free NFT when we launch.
-                </p>
+            <div class="wrapper">
+                <section class="upsell__layout">
+                    <h3 class="section-heading">Free NFT for early birds</h3>
+                    <p class="additional-information upsell--information">
+                        Sign up today and you'll get a free NFT when we launch.
+                    </p>
+                </section>
             </div>
         </article>
         <article class="press">
-            <div class="wrapper press__layout">
-                <a href="#" class="press__link">
-                    <picture>
-                        <source media="(min-width: 992px)" srcset="assets\companies\1.svg">
-                        <img src="assets\companies\1 png.png" alt="boomerang-logo" class="press__icon">
-                    </picture>
-                </a>
-                <a href="#" class="press__link"><img src="assets\companies\2.svg" alt="blimp-logo" class="press__icon"></a>
-                <a href="#" class="press__link"><img src="assets\companies\3.svg" alt="qrco-logo" class="press__icon"></a>
-                <a href="#" class="press__link hidden--icon"><img src="assets\companies\4.svg" alt="opendoor-logo" class="press__icon"></a>
-                <a href="#" class="press__link"><img src="assets\companies\5.svg" alt="droplet-logo" class="press__icon"></a>
+            <div class="wrapper">
+                <ul class="press__list">
+                    <li class="press__list-item"><a href="#" class="press__link">
+                            <picture>
+                                <source media="(min-width: 992px)" srcset="assets\companies\1.svg">
+                                <img src="assets\companies\1 png.png" alt="boomerang-logo" class="press__icon">
+                            </picture>
+                        </a></li>
+                    <li class="press__list-item"><a href="#" class="press__link"><img src="assets\companies\2.svg"
+                                alt="blimp-logo" class="press__icon"></a></li>
+                    <li class="press__list-item"><a href="#" class="press__link"><img src="assets\companies\3.svg"
+                                alt="qrco-logo" class="press__icon"></a></li>
+                    <li class="press__list-item hidden--icon"><a href="#" class="press__link"><img
+                                src="assets\companies\4.svg" alt="opendoor-logo" class="press__icon"></a></li>
+                    <li class="press__list-item"><a href="#" class="press__link"><img src="assets\companies\5.svg"
+                                alt="droplet-logo" class="press__icon"></a></li>
+                </ul>
             </div>
         </article>
-        <article></article>
+        <article class="showcase">
+            <div class="wrapper">
+                <section class="showcase__top-section">
+                    <h3 class="section-heading">
+                        LE Super Rare Auction
+                    </h3>
+                    <p class="additional-information">
+                        We have released four limited edition NFTs early which can be bid on via <a href="#"
+                            class="opensea-link">OpenSea</a>
+                    </p>
+                </section>
+                <section class="showcase__nft-section">
+                    <ol class="nft-list">
+                        <li class="nft-list__item"><a href="#" class="nft-list__link">
+                                <div class="nft-card">
+                                    <img class="nft-card__image" src="assets\ntfs\ntf-1.svg" alt="nft-card">
+                                    <div class="nft-content">
+                                        <span class="nft-content__top content--left">gloop series</span>
+                                        <span class="nft-content__top content--right">top bid</span>
+                                        <span class="nft-content__mid content--left">purple man</span>
+                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                        <span class="nft-content__bottom content--left">#12983</span>
+                                        <span class="nft-content__bottom content--right">1 day left</span>
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="nft-list__item"><a href="#" class="nft-list__link">
+                                <div class="nft-card">
+                                    <img src="assets\ntfs\nft-2.svg" alt="nft-card">
+                                    <div class="nft-content">
+                                        <span class="nft-content__top content--left">gloop series</span>
+                                        <span class="nft-content__top content--right">top bid</span>
+                                        <span class="nft-content__mid content--left">beige</span>
+                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                        <span class="nft-content__bottom content--left">#12983</span>
+                                        <span class="nft-content__bottom content--right">1 day left</span>
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="nft-list__item"><a href="#" class="nft-list__link">
+                                <div class="nft-card">
+                                    <img src="assets\ntfs\ntf-3.svg" alt="nft-card">
+                                    <div class="nft-content">
+                                        <span class="nft-content__top content--left">gloop series</span>
+                                        <span class="nft-content__top content--right">top bid</span>
+                                        <span class="nft-content__mid content--left">red man</span>
+                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                        <span class="nft-content__bottom content--left">#12983</span>
+                                        <span class="nft-content__bottom content--right">1 day left</span>
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="nft-list__item"><a href="#" class="nft-list__link">
+                                <div class="nft-card">
+                                    <img src="assets\ntfs\ntf-4.svg" alt="nft-card">
+                                    <div class="nft-content">
+                                        <span class="nft-content__top content--left">gloop series</span>
+                                        <span class="nft-content__top content--right">top bid</span>
+                                        <span class="nft-content__mid content--left">green</span>
+                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                        <span class="nft-content__bottom content--left">#12983</span>
+                                        <span class="nft-content__bottom content--right">1 day left</span>
+                                    </div>
+                                </div>
+                            </a></li>
+                    </ol>
+                </section>
+            </div>
+        </article>
         <article></article>
         <article></article>
     </main>
