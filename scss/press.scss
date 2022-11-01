@@ -1,0 +1,16 @@
+.press {
+    padding: 68px 0 58px 0;
+    height: 238px;
+
+    &__layout {
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: start;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hidden--icon {
+        display: none;
+    }
+}

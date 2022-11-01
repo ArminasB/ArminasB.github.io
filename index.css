@@ -119,4 +119,19 @@ body {
   font-weight: 500;
 }
 
+.press {
+  padding: 68px 0 58px 0;
+  height: 238px;
+}
+.press__layout {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  grid-template-columns: 1fr 1fr;
+}
+.press .hidden--icon {
+  display: none;
+}
+
 /*# sourceMappingURL=index.css.map */
