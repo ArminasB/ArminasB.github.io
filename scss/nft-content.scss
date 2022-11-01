@@ -1,0 +1,53 @@
+.nft-content {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 12px;
+
+    .content--left {
+        justify-self: start;
+        line-height: 1;
+    }
+
+    .content--right {
+        justify-self: end;
+        line-height: 1;
+    }
+
+    &__top {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: rgba(255, 129, 57, 1);
+
+    }
+
+    &__mid {
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+    }
+
+    &__bottom {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(119, 119, 119, 1);
+
+    }
+
+    &__top.content--right {
+        color: rgba(119, 119, 119, 1);
+    }
+
+    &__mid.content--left {
+        text-transform: capitalize;
+    }
+
+    &__mid.content--right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-transform: uppercase;
+
+    }
+}

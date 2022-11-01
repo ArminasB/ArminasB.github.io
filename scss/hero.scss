@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    position: relative;
+    padding: 38px 0 80px 0;
+    
+    
+
+    &__content {
+        max-width: 78%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__image {
+        
+        height: 360px;
+        position: absolute;
+        top: -36px;
+        right: -206px;
+        z-index: -1;
+    }
+
+    .hero-content--bottom {
+        max-width: 65%;
+    }
+
+    &__bottom-image {
+        position: absolute;
+        bottom: 0;
+        right: -70px;
+        z-index: -1;
+    }
+}
+
+.hero--bottom {
+    border-bottom: 2px solid rgba(238, 238, 238, 1);
+}

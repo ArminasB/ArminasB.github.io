@@ -1,0 +1,33 @@
+.footer {
+    padding: 66px 0 105px 0;
+
+    &__layout {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+
+    &__bottom-copyright,
+    &__bottom-launch {
+        color: rgba(153, 153, 153, 1);
+        font-size: 20px;
+        line-height: 1;
+        font-weight: 400;
+    }
+
+    &__bottom-launch {
+        display: none;
+    }
+}
