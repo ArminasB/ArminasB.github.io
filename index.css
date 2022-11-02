@@ -351,6 +351,7 @@ body {
   position: relative;
   padding-top: 48px;
   padding-bottom: 32px;
+  min-height: 550px;
 }
 .hero-bottom__content {
   max-width: 58%;
