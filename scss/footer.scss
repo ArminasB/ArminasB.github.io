@@ -1,22 +1,30 @@
 .footer {
-    padding: 66px 0 105px 0;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
 
-    &__layout {
-        display: flex;
-        flex-direction: column;
-        gap: 64px;
-    }
 
     &__social {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+        .additional-information {
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
     }
 
     &__navigation {
+        margin-top: 64px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 40px;
+    }
+
+    &__list-section:nth-of-type(3),
+    &__list-section:nth-of-type(4) {
+        margin-top: 40px;
+    }
+
+    &__bottom {
+        margin-top: 64px;
     }
 
     &__bottom-copyright,

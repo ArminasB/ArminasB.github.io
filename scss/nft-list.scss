@@ -4,15 +4,18 @@
     list-style: none;
     display: grid;
     grid-auto-flow: column;
-    column-gap: 40px;
 
-    &__item {
-        margin-left: 0;
+    .list-item {
+        margin-left: 20px;
+        margin-right: 20px;
         width: 290px;
-        
     }
 
-    &__link {
-        text-decoration: none;
+    .list-item:first-child {
+        margin-left: 0;
+    }
+
+    .list-item:last-child {
+        margin-right: 0;
     }
 }

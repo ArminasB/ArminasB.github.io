@@ -1,7 +1,11 @@
 .showcase {
+    padding-top: 16px;
+    padding-bottom: 64px;
+    border-bottom: 2px solid rgba(238, 238, 238, 1);
+
     &__nft-section {
-        padding: 40px 0 92px 0;
+        padding-top: 40px;
+        padding-bottom: 24px;
         overflow-y: scroll;
-        border-bottom: 2px solid rgba(238, 238, 238, 1);
     }
 }
