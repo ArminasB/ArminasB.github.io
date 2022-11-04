@@ -1,0 +1,14 @@
+.hero-heading {
+    margin-top: $margin-l;
+    margin-bottom: $margin-l;
+    font-size: $font-44;
+    line-height: $line-height-m;
+    font-weight: $weight-900;
+}
+
+@media screen and (min-width: 992px) {
+    .heading--top {
+        margin-bottom: $margin-xl;
+        font-size: 96px;
+    }
+}

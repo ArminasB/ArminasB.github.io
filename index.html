@@ -17,219 +17,221 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <nav class="header__navigation">
-                <a href="#" class="page-logo">
-                    <img src="assets\logo.svg" alt="logo" class="page-logo__icon">
-                </a>
-                <ul class="u-list list--header">
-                    <li class="list-item"><a href="#" class="list-link">Features</a></li>
-                    <li class="list-item"><a href="#" class="list-link">About</a></li>
-                    <li class="list-item"><a href="#" class="list-link">Launch</a></li>
-                    <li class="list-item"><a href="#" class="list-link">Sign up</a></li>
-                </ul>
-                <img src="images\menu.png" alt="burger-icon" class="burger-icon">
-            </nav>
-            <section class="hero">
-                <div class="hero__content">
-                    <div class="hero__content-top">
-                        <span class="launching-tag">launching soon</span>
-                        <h2 class="heading">An NFT like no other</h2>
-                        <p class="additional-information">Don't miss out the release of our NFT. Sign up bellow to
-                            receive
-                            updates when we go live.</p>
-                    </div>
-                    <a href="#" class="sign-button">Sign Up</a>
+    <header class="header wrapper">
+        <a href="#" class="page-logo">
+            <img src="assets\logo.svg" alt="logo" class="page-logo__icon">
+        </a>
+        <nav class="header__navigation">
+            <ul class="u-list">
+                <li class="list-item"><a class="list-link" href="#">features</a></li>
+                <li class="list-item"><a class="list-link" href="#">about</a></li>
+                <li class="list-item"><a class="list-link" href="#">launch</a></li>
+                <li class="list-item"><a class="list-link link--special" href="#">sign up</a></li>
+            </ul>
+        </nav>
+        <ul class="burger u-list">
+            <li class="list-item"></li>
+            <li class="list-item"></li>
+            <li class="list-item"></li>
+        </ul>
+        <nav class="dropdown">
+            <ul class="u-list list--dropdown">
+                <li class="list-item"><a class="list-link" href="#">features</a></li>
+                <li class="list-item"><a class="list-link" href="#">about</a></li>
+                <li class="list-item"><a class="list-link" href="#">launch</a></li>
+                <li class="list-item"><a class="list-link link--special" href="#">sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main wrapper">
+        <article class="hero wrapper">
+            <section class="hero__content">
+                <div>
+                    <span class="launching-tag">launching soon</span>
+                    <h2 class="hero-heading heading--top">An NFT like no other</h2>
+                    <!--toks pats uzrasas yra ir apacioje puslapio , del to nedejau h1-->
+                    <p class="additional-information">Don't miss out the release of our NFT. Sign up bellow to
+                        receive
+                        updates when we go live.</p>
+                </div>
+                <a href="#" class="sign-button">Sign Up</a>
+            </section>
+
+            <img src="assets\graphic.svg" alt="nft-design" class="hero__image">
+
+        </article>
+        <article class="upsell wrapper">
+            <h3 class="section-heading">Free NFT for early birds</h3>
+            <p class="additional-information upsell--information">
+                Sign up today and you'll get a free NFT when we launch.
+            </p>
+        </article>
+        <article class="press wrapper">
+            <ul class="u-list list--press">
+                <li class="list-item"><a href="#" class="list-link">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="assets\companies\1.svg">
+                            <img src="assets\companies\1 png.png" alt="boomerang-logo" class="press__icon">
+                        </picture>
+                    </a></li>
+                <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\2.svg" alt="blimp-logo"
+                            class="press__icon"></a></li>
+                <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\3.svg" alt="qrco-logo"
+                            class="press__icon"></a></li>
+                <li class="list-item hidden--icon"><a href="#" class="list-link"><img src="assets\companies\4.svg"
+                            alt="opendoor-logo" class="press__icon"></a></li>
+                <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\5.svg" alt="droplet-logo"
+                            class="press__icon"></a></li>
+            </ul>
+        </article>
+        <article class="showcase wrapper">
+            <section class="showcase__top-section">
+                <h3 class="section-heading">
+                    LE Super Rare Auction
+                </h3>
+                <p class="additional-information">
+                    We have released four limited edition NFTs early which can be bid on via <a href="#"
+                        class="opensea-link">OpenSea</a>
+                </p>
+            </section>
+            <section class="showcase__nft-section">
+                <ol class="nft-list">
+                    <li class="list-item"><a href="#" class="list-link">
+                            <div class="nft-card">
+                                <img class="nft-card__image" src="assets\ntfs\ntf-1.svg" alt="nft-card">
+                                <div class="nft-content">
+                                    <span class="nft-content__top content--left">gloop series</span>
+                                    <span class="nft-content__top content--right">top bid</span>
+                                    <span class="nft-content__mid content--left">purple man</span>
+                                    <span class="nft-content__mid content--right"><img class="eth-icon"
+                                            src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                    <span class="nft-content__bottom content--left">#12983</span>
+                                    <span class="nft-content__bottom content--right">1 day left</span>
+                                </div>
+                            </div>
+                        </a></li>
+                    <li class="list-item"><a href="#" class="list-link">
+                            <div class="nft-card">
+                                <img src="assets\ntfs\nft-2.svg" alt="nft-card">
+                                <div class="nft-content">
+                                    <span class="nft-content__top content--left">gloop series</span>
+                                    <span class="nft-content__top content--right">top bid</span>
+                                    <span class="nft-content__mid content--left">beige</span>
+                                    <span class="nft-content__mid content--right"><img class="eth-icon"
+                                            src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                    <span class="nft-content__bottom content--left">#12983</span>
+                                    <span class="nft-content__bottom content--right">1 day left</span>
+                                </div>
+                            </div>
+                        </a></li>
+                    <li class="list-item"><a href="#" class="list-link">
+                            <div class="nft-card">
+                                <img src="assets\ntfs\ntf-3.svg" alt="nft-card">
+                                <div class="nft-content">
+                                    <span class="nft-content__top content--left">gloop series</span>
+                                    <span class="nft-content__top content--right">top bid</span>
+                                    <span class="nft-content__mid content--left">red man</span>
+                                    <span class="nft-content__mid content--right"><img class="eth-icon"
+                                            src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                    <span class="nft-content__bottom content--left">#12983</span>
+                                    <span class="nft-content__bottom content--right">1 day left</span>
+                                </div>
+                            </div>
+                        </a></li>
+                    <li class="list-item"><a href="#" class="list-link">
+                            <div class="nft-card">
+                                <img src="assets\ntfs\ntf-4.svg" alt="nft-card">
+                                <div class="nft-content">
+                                    <span class="nft-content__top content--left">gloop series</span>
+                                    <span class="nft-content__top content--right">top bid</span>
+                                    <span class="nft-content__mid content--left">green</span>
+                                    <span class="nft-content__mid content--right"><img class="eth-icon"
+                                            src="assets\eth.svg" alt="eth-icon">2.99 eth</span>
+                                    <span class="nft-content__bottom content--left">#12983</span>
+                                    <span class="nft-content__bottom content--right">1 day left</span>
+                                </div>
+                            </div>
+                        </a></li>
+                </ol>
+            </section>
+        </article>
+        <article class="hero-bottom wrapper">
+            <section class="hero-bottom__content">
+                <div>
+                    <span class="launching-tag">launching soon</span>
+                    <h2 class="hero-heading">An NFT like no other</h2>
+                    <p class="additional-information">Don't miss out the release of our NFT. Sign up bellow to
+                        receive
+                        updates<span class="text-hidden"> when we go live</span>.</p>
                 </div>
 
-                <img src="assets\graphic.svg" alt="nft-design" class="hero__image">
-
+                <a href="#" class="sign-button">Sign Up</a>
             </section>
-        </div>
-    </header>
-    <main class="main">
-        <article class="upsell">
-            <div class="wrapper">
-                <section class="upsell__layout">
-                    <h3 class="section-heading">Free NFT for early birds</h3>
-                    <p class="additional-information upsell--information">
-                        Sign up today and you'll get a free NFT when we launch.
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="press">
-            <div class="wrapper">
-                <ul class="u-list list--press">
-                    <li class="list-item"><a href="#" class="list-link">
-                            <picture>
-                                <source media="(min-width: 992px)" srcset="assets\companies\1.svg">
-                                <img src="assets\companies\1 png.png" alt="boomerang-logo" class="press__icon">
-                            </picture>
-                        </a></li>
-                    <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\2.svg"
-                                alt="blimp-logo" class="press__icon"></a></li>
-                    <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\3.svg"
-                                alt="qrco-logo" class="press__icon"></a></li>
-                    <li class="list-item hidden--icon"><a href="#" class="list-link"><img
-                                src="assets\companies\4.svg" alt="opendoor-logo" class="press__icon"></a></li>
-                    <li class="list-item"><a href="#" class="list-link"><img src="assets\companies\5.svg"
-                                alt="droplet-logo" class="press__icon"></a></li>
-                </ul>
-            </div>
-        </article>
-        <article class="showcase">
-            <div class="wrapper">
-                <section class="showcase__top-section">
-                    <h3 class="section-heading">
-                        LE Super Rare Auction
-                    </h3>
-                    <p class="additional-information">
-                        We have released four limited edition NFTs early which can be bid on via <a href="#"
-                            class="opensea-link">OpenSea</a>
-                    </p>
-                </section>
-                <section class="showcase__nft-section">
-                    <ol class="nft-list">
-                        <li class="nft-list__item"><a href="#" class="nft-list__link">
-                                <div class="nft-card">
-                                    <img class="nft-card__image" src="assets\ntfs\ntf-1.svg" alt="nft-card">
-                                    <div class="nft-content">
-                                        <span class="nft-content__top content--left">gloop series</span>
-                                        <span class="nft-content__top content--right">top bid</span>
-                                        <span class="nft-content__mid content--left">purple man</span>
-                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg"
-                                                alt="eth-icon">2.99 eth</span>
-                                        <span class="nft-content__bottom content--left">#12983</span>
-                                        <span class="nft-content__bottom content--right">1 day left</span>
-                                    </div>
-                                </div>
-                            </a></li>
-                        <li class="nft-list__item"><a href="#" class="nft-list__link">
-                                <div class="nft-card">
-                                    <img src="assets\ntfs\nft-2.svg" alt="nft-card">
-                                    <div class="nft-content">
-                                        <span class="nft-content__top content--left">gloop series</span>
-                                        <span class="nft-content__top content--right">top bid</span>
-                                        <span class="nft-content__mid content--left">beige</span>
-                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg"
-                                                alt="eth-icon">2.99 eth</span>
-                                        <span class="nft-content__bottom content--left">#12983</span>
-                                        <span class="nft-content__bottom content--right">1 day left</span>
-                                    </div>
-                                </div>
-                            </a></li>
-                        <li class="nft-list__item"><a href="#" class="nft-list__link">
-                                <div class="nft-card">
-                                    <img src="assets\ntfs\ntf-3.svg" alt="nft-card">
-                                    <div class="nft-content">
-                                        <span class="nft-content__top content--left">gloop series</span>
-                                        <span class="nft-content__top content--right">top bid</span>
-                                        <span class="nft-content__mid content--left">red man</span>
-                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg"
-                                                alt="eth-icon">2.99 eth</span>
-                                        <span class="nft-content__bottom content--left">#12983</span>
-                                        <span class="nft-content__bottom content--right">1 day left</span>
-                                    </div>
-                                </div>
-                            </a></li>
-                        <li class="nft-list__item"><a href="#" class="nft-list__link">
-                                <div class="nft-card">
-                                    <img src="assets\ntfs\ntf-4.svg" alt="nft-card">
-                                    <div class="nft-content">
-                                        <span class="nft-content__top content--left">gloop series</span>
-                                        <span class="nft-content__top content--right">top bid</span>
-                                        <span class="nft-content__mid content--left">green</span>
-                                        <span class="nft-content__mid content--right"><img src="assets\eth.svg"
-                                                alt="eth-icon">2.99 eth</span>
-                                        <span class="nft-content__bottom content--left">#12983</span>
-                                        <span class="nft-content__bottom content--right">1 day left</span>
-                                    </div>
-                                </div>
-                            </a></li>
-                    </ol>
-                </section>
-            </div>
-        </article>
-        <article class="bottom-upsell">
-            <div class="wrapper">
-                <section class="hero hero--bottom">
-                    <div class="hero__content hero-content--bottom">
-                        <div class="hero__content-top">
-                            <span class="launching-tag">launching soon</span>
-                            <h2 class="heading">An NFT like no other</h2>
-                            <p class="additional-information">Don't miss out the release of our NFT. Sign up bellow to
-                                receive
-                                updates.</p>
-                        </div>
-                        <a href="#" class="sign-button">Sign Up</a>
-                    </div>
-
-                    <img src="assets\upsell-footer-image.svg" alt="nft-design" class="hero__bottom-image">
-
-                </section>
-            </div>
+            <img src="assets\upsell-footer-image.svg" alt="nft-design" class="hero-bottom__image">
         </article>
     </main>
-    <footer class="footer">
-        <div class="wrapper footer__layout">
-            <section class="footer__social">
-                <a href="#" class="page-logo">
-                    <img src="assets\logo.svg" alt="logo" class="page-logo__icon">
-                </a>
-                <p class="additional-information">
-                    Exclusive NFT Collection
-                </p>
-                <ul class="u-list list--social">
-                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\facebook.svg" alt="facebook"></a></li>
-                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\twitter.svg" alt="twitter"></a></li>
-                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\instagram.svg" alt="instagram"></a></li>
-                    <li class="list-item"><a href="#" class="list-link"><img class="social-icon" src="assets\social\tiktok.svg" alt="tiktok"></a></li>
+    <footer class="footer wrapper">
+        <section class="footer__social">
+            <a href="#" class="page-logo">
+                <img src="assets\logo.svg" alt="logo" class="page-logo__icon">
+            </a>
+            <p class="additional-information">
+                Exclusive NFT Collection
+            </p>
+            <ul class="u-list list--social">
+                <li class="list-item"><a href="#" class="list-link"><img class="social-icon"
+                            src="assets\social\facebook.svg" alt="facebook"></a></li>
+                <li class="list-item"><a href="#" class="list-link"><img class="social-icon"
+                            src="assets\social\twitter.svg" alt="twitter"></a></li>
+                <li class="list-item"><a href="#" class="list-link"><img class="social-icon"
+                            src="assets\social\instagram.svg" alt="instagram"></a></li>
+                <li class="list-item"><a href="#" class="list-link"><img class="social-icon"
+                            src="assets\social\tiktok.svg" alt="tiktok"></a></li>
+            </ul>
+        </section>
+        <nav class="footer__navigation">
+            <section class="footer__list-section">
+                <h4 class="list-heading">about</h4>
+                <ul class="u-list footer--list">
+                    <li class="list-item"><a href="#" class="list-link">About</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Terms</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Legal</a></li>
                 </ul>
             </section>
-            <nav class="footer__navigation">
-                <section class="footer__list-section">
-                    <h4 class="list-heading">about</h4>
-                    <ul class="u-list footer--list">
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">About</a></li>
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Terms</a></li>
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Legal</a></li>
-                    </ul>
-                </section>
-                <section class="footer__list-section">
-                    <h4 class="list-heading">nft</h4>
-                    <ul class="u-list footer--list">
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">OpenSea</a></li>
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Maker</a></li>
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Learn</a></li>
-                    </ul>
-                </section>
-                <section class="footer__list-section">
-                    <h4 class="list-heading">contact</h4>
-                    <ul class="u-list footer--list">
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Press</a></li>
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Support</a></li>
-                    </ul>
-                </section>
-                <section class="footer__list-section">
-                    <h4 class="list-heading">social</h4>
-                    <ul class="u-list footer--list">
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Twitter</a></li>
-                        <li class="list-item"><a href="#" class="list-link footer--list-link">Instagram</a></li>
-                    </ul>
-                </section>
-            </nav>
-            <section class="footer__bottom">
-                <span class="footer__bottom-copyright">
-                    &copy; Copyright 2022 NFTlanding
-                </span>
-                <span class="footer__bottom-launch">
-                    Launching August 2022
-                </span>
+            <section class="footer__list-section">
+                <h4 class="list-heading">nft</h4>
+                <ul class="u-list footer--list">
+                    <li class="list-item"><a href="#" class="list-link">OpenSea</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Maker</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Learn</a></li>
+                </ul>
             </section>
-        </div>
+            <section class="footer__list-section">
+                <h4 class="list-heading">contact</h4>
+                <ul class="u-list footer--list">
+                    <li class="list-item"><a href="#" class="list-link">Press</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Support</a></li>
+                </ul>
+            </section>
+            <section class="footer__list-section">
+                <h4 class="list-heading">social</h4>
+                <ul class="u-list footer--list">
+                    <li class="list-item"><a href="#" class="list-link">Twitter</a></li>
+                    <li class="list-item"><a href="#" class="list-link">Instagram</a></li>
+                </ul>
+            </section>
+        </nav>
+        <section class="footer__bottom">
+            <span class="footer__bottom-copyright">
+                &copy; Copyright 2022 NFTlanding
+            </span>
+            <span class="footer__bottom-launch">
+                Launching August 2022
+            </span>
+        </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

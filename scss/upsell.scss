@@ -1,13 +1,19 @@
 .upsell {
-    height: 326px;
-    padding: 32px 0 32px 0;
-    background: rgb(212,72,145);
-    background: linear-gradient(45deg, rgba(212,72,145,1) 0%, rgba(198,134,38,1) 62%, rgba(136,181,80,1) 100%);
+    padding-top: $padding-xxxl;
+    padding-bottom: $padding-l;
+    min-height: 326px;
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
-    &__layout {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+@media screen and (min-width: 992px) {
+    .upsell {
+        padding: $padding-xxxl;
+        background-image: url("assets/background.svg");
+        border-radius: 16px;
     }
 }

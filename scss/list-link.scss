@@ -2,9 +2,30 @@
     text-decoration: none;
 }
 
-.footer--list-link {
-    color: inherit;
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 400;
+.header {
+    .list-link {
+        color: $gray-2;
+        font-size: $font-20;
+        line-height: $line-height-s;
+        font-weight: $weight-400;
+        text-transform: capitalize;
+        transition: all 200ms ease;
+
+        &.link--special {
+            color: $special-1;
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+.footer {
+    &__list-section .list-link {
+        color: $gray-1;
+        font-size: $font-20;
+        line-height: $line-height-s;
+        font-weight: $weight-400;
+    }
 }
