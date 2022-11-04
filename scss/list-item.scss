@@ -1,6 +1,9 @@
 .dropdown {
     .list-item {
-        padding: $padding-s;
+        margin-bottom: $margin-l;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
