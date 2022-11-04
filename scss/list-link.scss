@@ -11,14 +11,13 @@
         text-transform: capitalize;
         transition: all 200ms ease;
 
+        &.link--special {
+            color: $special-1;
+        }
+
         &:hover {
             opacity: 0.5;
         }
-    }
-
-
-    .link--special {
-        color: $special-1;
     }
 }
 

@@ -1,6 +1,7 @@
 .dropdown {
     .list-item {
         margin-bottom: $margin-l;
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -9,9 +10,12 @@
 
 .press {
 
-    .list-item:nth-of-type(2),
-    .list-item:nth-of-type(5) {
-        justify-self: end;
+    .list-item {
+
+        &:nth-of-type(2),
+        &:nth-of-type(5) {
+            justify-self: end;
+        }
     }
 }
 
@@ -24,31 +28,35 @@
         margin-left: $margin-m;
         margin-right: $margin-m;
         width: 290px;
-    }
 
-    .list-item:first-child {
-        margin-left: 0;
-    }
+        &:first-child {
+            margin-left: 0;
+        }
 
-    .list-item:last-child {
-        margin-right: 0;
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }
 
 .footer {
     &__social {
-        .list-item:not(:last-child) {
-            margin-right: $margin-s;
+        .list-item {
+            &:not(:last-child) {
+                margin-right: $margin-s;
+            }
         }
     }
 
     &__list-section {
-        .list-item:first-child {
-            margin-top: $margin-xs;
-        }
-
-        .list-item:not(:last-child) {
-            margin-bottom: $margin-s;
+        .list-item {
+            &:first-child {
+                margin-top: $margin-xs;
+            }
+    
+            &:not(:last-child) {
+                margin-bottom: $margin-s;
+            }
         }
     }
 }
@@ -72,7 +80,7 @@
     .press {
         .list-item {
             margin-left: $margin-xs;
-            
+
             &:last-child {
                 margin-left: 0;
             }

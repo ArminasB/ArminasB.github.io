@@ -18,12 +18,33 @@
         font-size: $font-12;
         font-weight: $weight-500;
         text-transform: uppercase;
+
+        &.content--left {
+            margin-bottom: $margin-xs;
+        }
+
+        &.content--right {
+            margin-bottom: $margin-xs;
+            color: $gray-3;
+        }
     }
 
     &__mid {
         color: $secondary-color;
         font-size: $font-20;
         font-weight: $weight-500;
+
+        &.content--left {
+            margin-bottom: $margin-xs;
+            text-transform: capitalize;
+        }
+
+        &.content--right {
+            margin-bottom: $margin-xs;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+        }
     }
 
     &__bottom {
@@ -31,26 +52,5 @@
         font-size: $font-18;
         font-weight: $weight-400;
 
-    }
-
-    &__top.content--left {
-        margin-bottom: $margin-xs;
-    }
-
-    &__top.content--right {
-        margin-bottom: $margin-xs;
-        color: $gray-3;
-    }
-
-    &__mid.content--left {
-        margin-bottom: $margin-xs;
-        text-transform: capitalize;
-    }
-
-    &__mid.content--right {
-        margin-bottom: $margin-xs;
-        display: flex;
-        align-items: center;
-        text-transform: uppercase;
     }
 }

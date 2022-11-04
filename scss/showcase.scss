@@ -7,11 +7,12 @@
         padding-top: $padding-xl;
         padding-bottom: $padding-m;
         overflow-y: scroll;
-        scrollbar-color: white white;
+        scrollbar-color: $primary-color $primary-color;
         scrollbar-width: thin;
 
         &::-webkit-scrollbar {
-            background-color: transparent;
+            scrollbar-color: $gray-3 $primary-color;
+            visibility: hidden;
             height: 8px;
         }
 
@@ -20,17 +21,12 @@
         }
 
         &:hover {
-            scrollbar-color: $gray-3 white;
-            &::-webkit-scrollbar {
-                height: 8px;
-            }
+            visibility: visible;
 
             &::-webkit-scrollbar-thumb {
                 background-color: $gray-3;
             }
         }
-
-
     }
 }
 
