@@ -49,3 +49,34 @@
         }
     }
 }
+
+@media screen and (min-width: 992px) {
+    .header__navigation {
+        .list-item {
+            margin-left: $margin-xs;
+            margin-right: $margin-s;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .press {
+        .list-item {
+            margin-left: $margin-xs;
+            
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+
+        .hidden--icon {
+            display: inline;
+        }
+    }
+}

@@ -7,5 +7,40 @@
         padding-top: $padding-xl;
         padding-bottom: $padding-m;
         overflow-y: scroll;
+        scrollbar-color: white white;
+        scrollbar-width: thin;
+
+        &::-webkit-scrollbar {
+            background-color: transparent;
+            height: 8px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+        }
+
+        &:hover {
+            scrollbar-color: $gray-3 white;
+            &::-webkit-scrollbar {
+                height: 8px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: $gray-3;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .showcase {
+        padding-top: $padding-xl;
+
+        &__nft-section {
+            padding-top: 56px;
+            padding-bottom: 56px;
+        }
     }
 }

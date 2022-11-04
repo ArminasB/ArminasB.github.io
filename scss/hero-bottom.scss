@@ -2,6 +2,7 @@
     padding-top: $padding-xxl;
     padding-bottom: $padding-l;
     min-height: 550px;
+    border-bottom: 2px solid $light;
     position: relative;
 
     &__content {
@@ -25,4 +26,27 @@
         right: 0;
         top: 270px;
     }
+}
+
+@media screen and (min-width: 992px) {
+    .hero-bottom {
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__content {
+            max-width: 45%;
+        }
+
+        &__image {
+            right: 200px;
+        }
+
+        ::before {
+            display: none;
+        }
+    }
+
+
 }

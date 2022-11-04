@@ -1,0 +1,9 @@
+.text-hidden {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .text-hidden {
+        display: inline;
+    }
+}

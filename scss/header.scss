@@ -1,5 +1,5 @@
 .header {
-    height: 104px;
+    min-height: 104px;
     padding-top: $padding-l;
     padding-bottom: $padding-l;
     display: flex;
@@ -14,7 +14,11 @@
 
 @media screen and (min-width: 992px) {
     .header {
-        padding-top: 80px;
+        padding-top: 70px;
+        padding-bottom: 104px;
 
+        &__navigation {
+            display: block;
+        }
     }
 }

@@ -6,3 +6,12 @@
         width: 100%;
     }
 }
+
+
+@media screen and (min-width: 992px) {
+    .press {
+        margin-top: $margin-xxxl;
+        padding-top: $padding-xxxl;
+        padding-bottom: $padding-xxxl;
+    }
+}

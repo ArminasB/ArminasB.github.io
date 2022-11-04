@@ -8,6 +8,8 @@
         font-size: $font-20;
         line-height: $line-height-s;
         font-weight: $weight-400;
+        text-transform: capitalize;
+        transition: all 200ms ease;
 
         &:hover {
             opacity: 0.5;

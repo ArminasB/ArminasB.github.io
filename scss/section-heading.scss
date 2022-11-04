@@ -5,3 +5,9 @@
     line-height: $line-height-m;
     font-weight: $weight-500;
 }
+
+@media screen and (min-width: 992px) {
+    .section-heading {
+        margin-bottom: $margin-l;
+    }
+}
