@@ -1,4 +1,51 @@
+.dropdown {
+    .list-item {
+        padding: $padding-s;
+    }
+}
+
+.press {
+
+    .list-item:nth-of-type(2),
+    .list-item:nth-of-type(5) {
+        justify-self: end;
+    }
+}
 
 .hidden--icon {
     display: none;
+}
+
+.nft-list {
+    .list-item {
+        margin-left: $margin-m;
+        margin-right: $margin-m;
+        width: 290px;
+    }
+
+    .list-item:first-child {
+        margin-left: 0;
+    }
+
+    .list-item:last-child {
+        margin-right: 0;
+    }
+}
+
+.footer {
+    &__social {
+        .list-item:not(:last-child) {
+            margin-right: $margin-s;
+        }
+    }
+
+    &__list-section {
+        .list-item:first-child {
+            margin-top: $margin-xs;
+        }
+
+        .list-item:not(:last-child) {
+            margin-bottom: $margin-s;
+        }
+    }
 }

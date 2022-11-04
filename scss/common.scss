@@ -9,14 +9,13 @@ html {
 html,
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
     height: 100%;
+    font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
 
 .wrapper {
-
-    padding: 0 32px;
+    padding: 0 $padding-l;
 }
 
 @media screen and (min-width: 992px) {

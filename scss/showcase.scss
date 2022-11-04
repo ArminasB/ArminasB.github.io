@@ -1,11 +1,11 @@
 .showcase {
-    padding-top: 16px;
-    padding-bottom: 64px;
-    border-bottom: 2px solid rgba(238, 238, 238, 1);
+    padding-top: $padding-s;
+    padding-bottom: $padding-xxxl;
+    border-bottom: 2px solid $light;
 
     &__nft-section {
-        padding-top: 40px;
-        padding-bottom: 24px;
+        padding-top: $padding-xl;
+        padding-bottom: $padding-m;
         overflow-y: scroll;
     }
 }

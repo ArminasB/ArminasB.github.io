@@ -2,30 +2,29 @@
     text-decoration: none;
 }
 
-.link--dropdown {
-    color: rgb(69, 61, 153);
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 500;
-    padding: 10px 20px;
-    background: linear-gradient(white, white) padding-box,
-        linear-gradient(to right, rgb(93, 24, 190), rgb(9, 72, 25)) border-box;
-    border-radius: 50px;
-    border: 2px solid transparent;
+.header {
+    .list-link {
+        color: $gray-2;
+        font-size: $font-20;
+        line-height: $line-height-s;
+        font-weight: $weight-400;
 
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+
+    .link--special {
+        color: $special-1;
+    }
 }
 
-.link--sign-up {
-    color: rgb(96, 67, 67);
-    background: linear-gradient(white, white) padding-box,
-        linear-gradient(to right, red, orange) border-box;
+.footer {
+    &__list-section .list-link {
+        color: $gray-1;
+        font-size: $font-20;
+        line-height: $line-height-s;
+        font-weight: $weight-400;
+    }
 }
-
-
-.footer--list-link {
-    color: inherit;
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 400;
-}
-

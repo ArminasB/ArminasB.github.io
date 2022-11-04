@@ -1,11 +1,7 @@
 .section-heading {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 40px;
-    line-height: 1.2;
-    font-weight: 500;
-}
-
-.heading--upsell {
-    margin-top: 82px;
+    margin-top: $margin-s;
+    margin-bottom: $margin-s;
+    font-size: $font-40;
+    line-height: $line-height-m;
+    font-weight: $weight-500;
 }
