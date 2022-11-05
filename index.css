@@ -73,12 +73,13 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transform: translateY(-1000px);
+  transition: transform 300ms ease-in-out;
   z-index: 100;
-  display: none;
 }
 .dropdown.active {
   position: fixed;
-  display: block;
+  transform: translateY(0);
 }
 
 .burger {
