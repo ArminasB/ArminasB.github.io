@@ -57,7 +57,7 @@ body {
 @media screen and (min-width: 992px) {
   .header {
     padding-top: 70px;
-    padding-bottom: 104px;
+    padding-bottom: 64px;
   }
   .header__navigation {
     display: block;
@@ -77,6 +77,7 @@ body {
   display: none;
 }
 .dropdown.active {
+  position: fixed;
   display: block;
 }
 
@@ -94,6 +95,10 @@ body {
   border-radius: 3px;
   background-color: rgb(153, 153, 153);
   transition: all 400ms ease;
+}
+.burger.active {
+  position: fixed;
+  right: 32px;
 }
 .burger.active .list-item:first-child {
   transform: rotate(225deg);
@@ -244,7 +249,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .main {
-    padding-top: 56px;
+    padding-top: 88px;
     width: 100%;
   }
 }
@@ -345,6 +350,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .upsell {
+    margin-top: 116px;
     padding: 64px;
     background-image: url("assets/background.svg");
     border-radius: 16px;
