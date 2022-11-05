@@ -15,7 +15,7 @@
 @media screen and (min-width: 992px) {
     .header {
         padding-top: 70px;
-        padding-bottom: 104px;
+        padding-bottom: $padding-xxxl;
 
         &__navigation {
             display: block;
