@@ -50,12 +50,10 @@
 
     &__list-section {
         .list-item {
+            margin-top: $margin-s;
+
             &:first-child {
                 margin-top: $margin-xs;
-            }
-    
-            &:not(:last-child) {
-                margin-bottom: $margin-s;
             }
         }
     }
