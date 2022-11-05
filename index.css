@@ -179,12 +179,8 @@ body {
 }
 
 .nft-list .list-item {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
   width: 290px;
-}
-.nft-list .list-item:first-child {
-  margin-left: 0;
 }
 .nft-list .list-item:last-child {
   margin-right: 0;
@@ -212,10 +208,10 @@ body {
     margin-right: 0;
   }
   .press .list-item {
-    margin-left: 12px;
+    margin-right: 12px;
   }
   .press .list-item:last-child {
-    margin-left: 0;
+    margin-right: 0;
   }
   .press .hidden--icon {
     display: inline;
@@ -498,7 +494,6 @@ body {
 .hero-bottom {
   padding-top: 48px;
   padding-bottom: 32px;
-  min-height: 550px;
   border-bottom: 2px solid rgb(238, 238, 238);
   position: relative;
 }
@@ -526,10 +521,8 @@ body {
 
 @media screen and (min-width: 992px) {
   .hero-bottom {
-    min-height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .hero-bottom::before {
     display: none;

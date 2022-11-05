@@ -25,13 +25,8 @@
 
 .nft-list {
     .list-item {
-        margin-left: $margin-m;
-        margin-right: $margin-m;
+        margin-right: $margin-xxl;
         width: 290px;
-
-        &:first-child {
-            margin-left: 0;
-        }
 
         &:last-child {
             margin-right: 0;
@@ -77,10 +72,10 @@
 
     .press {
         .list-item {
-            margin-left: $margin-xs;
+            margin-right: $margin-xs;
 
             &:last-child {
-                margin-left: 0;
+                margin-right: 0;
             }
         }
 
