@@ -393,7 +393,6 @@ body {
   scrollbar-width: thin;
 }
 .showcase__nft-section::-webkit-scrollbar {
-  scrollbar-color: rgb(119, 119, 119) white;
   visibility: hidden;
   height: 8px;
 }
@@ -402,6 +401,7 @@ body {
 }
 .showcase__nft-section:hover {
   visibility: visible;
+  scrollbar-color: rgb(119, 119, 119) white;
 }
 .showcase__nft-section:hover::-webkit-scrollbar-thumb {
   background-color: rgb(119, 119, 119);

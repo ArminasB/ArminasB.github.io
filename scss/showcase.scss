@@ -11,7 +11,6 @@
         scrollbar-width: thin;
 
         &::-webkit-scrollbar {
-            scrollbar-color: $gray-3 $primary-color;
             visibility: hidden;
             height: 8px;
         }
@@ -22,6 +21,7 @@
 
         &:hover {
             visibility: visible;
+            scrollbar-color: $gray-3 $primary-color;
 
             &::-webkit-scrollbar-thumb {
                 background-color: $gray-3;
