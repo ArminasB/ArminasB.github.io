@@ -1,7 +1,6 @@
 .hero-bottom {
     padding-top: $padding-xxl;
     padding-bottom: $padding-l;
-    min-height: 550px;
     border-bottom: 2px solid $light;
     position: relative;
 
@@ -33,10 +32,8 @@
 
 @media screen and (min-width: 992px) {
     .hero-bottom {
-        min-height: 550px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding-top: $padding-xxxl;
+        padding-bottom: $padding-xxxl;
 
         &::before {
             display: none;
