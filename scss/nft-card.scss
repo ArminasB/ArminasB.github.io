@@ -5,4 +5,9 @@
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+
+    &__image {
+        width: 290px;
+        height: 278px;
+    }
 }
