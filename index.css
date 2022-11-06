@@ -6,6 +6,21 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(119, 119, 119) white;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgb(238, 238, 238);
+}
+body::-webkit-scrollbar-thumb {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: rgb(119, 119, 119);
+  border-radius: 5px;
+}
+
 html,
 body {
   margin: 0;
@@ -95,10 +110,6 @@ body {
   border-radius: 3px;
   background-color: rgb(153, 153, 153);
   transition: all 400ms ease;
-}
-.burger.active {
-  position: fixed;
-  right: 32px;
 }
 .burger.active .list-item:first-child {
   transform: rotate(225deg);
@@ -436,6 +447,10 @@ body {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
+}
+.nft-card__image {
+  width: 290px;
+  height: 278px;
 }
 
 .nft-content {
