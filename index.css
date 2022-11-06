@@ -453,16 +453,15 @@ body {
 
 .nft-content {
   padding: 24px;
+  line-height: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .nft-content .content--left {
   justify-self: start;
-  line-height: 1;
 }
 .nft-content .content--right {
   justify-self: end;
-  line-height: 1;
 }
 .nft-content__top {
   margin-bottom: 12px;

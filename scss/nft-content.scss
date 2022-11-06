@@ -1,16 +1,15 @@
 .nft-content {
     padding: $padding-m;
+    line-height: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     .content--left {
         justify-self: start;
-        line-height: 1;
     }
 
     .content--right {
         justify-self: end;
-        line-height: 1;
     }
 
     &__top {
