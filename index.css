@@ -465,29 +465,25 @@ body {
   line-height: 1;
 }
 .nft-content__top {
+  margin-bottom: 12px;
   color: rgb(255, 129, 57);
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
 }
-.nft-content__top.content--left {
-  margin-bottom: 12px;
-}
 .nft-content__top.content--right {
-  margin-bottom: 12px;
   color: rgb(119, 119, 119);
 }
 .nft-content__mid {
+  margin-bottom: 12px;
   color: black;
   font-size: 20px;
   font-weight: 500;
 }
 .nft-content__mid.content--left {
-  margin-bottom: 12px;
   text-transform: capitalize;
 }
 .nft-content__mid.content--right {
-  margin-bottom: 12px;
   display: flex;
   align-items: center;
   text-transform: uppercase;
