@@ -1,9 +1,7 @@
 .dropdown {
     .list-item {
-        margin-bottom: $margin-l;
-
-        &:last-child {
-            margin-bottom: 0;
+        &:not(:last-child) {
+            margin-bottom: $margin-l;
         }
     }
 }
@@ -25,11 +23,10 @@
 
 .nft-list {
     .list-item {
-        margin-right: $margin-xxl;
         width: 290px;
 
-        &:last-child {
-            margin-right: 0;
+        &:not(:last-child) {
+            margin-right: $margin-xxl;
         }
     }
 }
@@ -57,25 +54,20 @@
 @media screen and (min-width: 992px) {
     .header__navigation {
         .list-item {
-            margin-left: $margin-xs;
-            margin-right: $margin-s;
-
-            &:first-child {
-                margin-left: 0;
+            &:not(:first-child) {
+                margin-left: $margin-xs;
             }
 
-            &:last-child {
-                margin-right: 0;
+            &:not(:last-child) {
+                margin-right: $margin-s;
             }
         }
     }
 
     .press {
         .list-item {
-            margin-right: $margin-xs;
-
-            &:last-child {
-                margin-right: 0;
+            &:not(:last-child) {
+                margin-right: $margin-xs;
             }
         }
 
